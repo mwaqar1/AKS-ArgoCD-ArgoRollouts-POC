@@ -116,7 +116,6 @@ The AKS-ArgoCD-ArgoRollouts-POC project aims to illustrate the powerful capabili
 - **Scalable Application Management:** Learned to manage and scale applications in a cloud-native environment, ensuring high availability and performance.
 - **Collaborative Deployment Strategies:** Gained insights into collaborative deployment strategies, enabling seamless collaboration between development and operations teams.
 - **Automated Rollback and Promotion:** Developed skills in configuring automated rollback and promotion strategies based on custom metrics and KPIs, ensuring robust deployment processes.
-- **Comprehensive Documentation:** Enhanced ability to create comprehensive documentation and guides for complex deployment processes, facilitating knowledge sharing and onboarding.
 
 ### Why This Project Matters
 
