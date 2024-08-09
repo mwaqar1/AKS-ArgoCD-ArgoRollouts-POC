@@ -45,7 +45,7 @@ The AKS-ArgoCD-ArgoRollouts-POC project aims to illustrate the powerful capabili
 
 - **Traffic Management:**
   - Integrates with ingress controllers and service meshes to manage traffic during updates, ensuring that traffic is routed appropriately and minimizing the impact on end users.
-  - Uses advanced traffic shaping techniques to gradually shift traffic to the new version during an update, leveraging the capabilities of tools like Istio and Nginx Ingress Controller.
+  - Uses advanced traffic shaping techniques to gradually shift traffic to the new version during an update, leveraging the capabilities of tools like Nginx Ingress Controller.
 
 - **Monitoring and Metrics:**
   - Integrates with metric providers like Prometheus, to monitor the health and performance of the application during deployments.
