@@ -43,10 +43,6 @@ The AKS-ArgoCD-ArgoRollouts-POC project aims to illustrate the powerful capabili
   - Demonstrates canary releases, where a small percentage of traffic is initially directed to the new version to verify its stability before gradually increasing the traffic.
   - Implements blue/green deployments, where the new version is deployed alongside the old version, and traffic is switched over once the new version is verified to be stable.
 
-- **Traffic Management:**
-  - Integrates with ingress controllers and service meshes to manage traffic during updates, ensuring that traffic is routed appropriately and minimizing the impact on end users.
-  - Uses advanced traffic shaping techniques to gradually shift traffic to the new version during an update, leveraging the capabilities of tools like Nginx Ingress Controller.
-
 - **Monitoring and Metrics:**
   - Integrates with metric providers like Prometheus, to monitor the health and performance of the application during deployments.
   - Utilizes custom metrics and KPIs to drive automated promotion or rollback decisions, ensuring that the application meets predefined performance and reliability criteria.
@@ -77,16 +73,14 @@ The AKS-ArgoCD-ArgoRollouts-POC project aims to illustrate the powerful capabili
   - Showcased the use of custom metrics and KPIs for automated promotion and rollback decisions.
 
 - **Advanced Deployment Strategies:**
-  - Configured fine-grained traffic shifting using supported traffic shaping integrations such as Istio, Nginx Ingress Controller, and others.
-  - Integrated various metric providers (Prometheus, Datadog, New Relic) for in-depth analysis and decision-making during deployments.
+  - Integrated various metric providers (Prometheus) for in-depth analysis and decision-making during deployments.
 
 ## Technologies and Tools Used
 
 - **Kubernetes:** Managed AKS clusters and deployed applications using Kubernetes.
 - **Argo CD:** Utilized for continuous deployment, implementing GitOps methodologies.
 - **Argo Rollouts:** Configured for advanced deployment strategies, including canary and blue-green deployments.
-- **Ingress Controllers and Service Meshes:** Integrated with Istio, Nginx Ingress Controller, and others for traffic management.
-- **Metric Providers:** Integrated with Prometheus, Datadog, and New Relic for monitoring and analysis.
+- **Metric Providers:** Integrated with Prometheus for monitoring and analysis.
 - **kubectl:** Used for managing Kubernetes clusters and executing deployment commands.
 - **Git:** Employed for version control and managing application code and deployment configurations.
 - **Azure:** Leveraged Azure services for managing and deploying Kubernetes clusters.
@@ -102,7 +96,6 @@ The AKS-ArgoCD-ArgoRollouts-POC project aims to illustrate the powerful capabili
 - **Kubernetes Management:** Gained proficiency in managing Kubernetes clusters, including node scaling, resource allocation, and troubleshooting.
 - **Continuous Deployment:** Mastered the use of Argo CD for implementing continuous deployment pipelines using GitOps principles.
 - **Progressive Delivery:** Developed expertise in configuring and managing progressive delivery strategies with Argo Rollouts, including canary and blue-green deployments.
-- **Traffic Shaping and Management:** Learned to integrate and configure ingress controllers and service meshes for advanced traffic management during deployments.
 - **Monitoring and Metrics Analysis:** Acquired skills in integrating and analyzing metrics from various providers to drive deployment decisions and ensure application health.
 - **Command-line Proficiency:** Enhanced proficiency in using kubectl for managing Kubernetes resources and executing deployment commands.
 - **Version Control:** Strengthened skills in using Git for version control, managing application code, and maintaining deployment configurations.
@@ -115,7 +108,6 @@ The AKS-ArgoCD-ArgoRollouts-POC project aims to illustrate the powerful capabili
 - **Enhanced Troubleshooting Skills:** Improved ability to troubleshoot and resolve issues related to Kubernetes deployments and traffic management.
 - **Scalable Application Management:** Learned to manage and scale applications in a cloud-native environment, ensuring high availability and performance.
 - **Collaborative Deployment Strategies:** Gained insights into collaborative deployment strategies, enabling seamless collaboration between development and operations teams.
-- **Automated Rollback and Promotion:** Developed skills in configuring automated rollback and promotion strategies based on custom metrics and KPIs, ensuring robust deployment processes.
 
 ### Why This Project Matters
 
