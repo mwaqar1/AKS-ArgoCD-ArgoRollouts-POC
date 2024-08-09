@@ -48,7 +48,7 @@ The AKS-ArgoCD-ArgoRollouts-POC project aims to illustrate the powerful capabili
   - Uses advanced traffic shaping techniques to gradually shift traffic to the new version during an update, leveraging the capabilities of tools like Istio and Nginx Ingress Controller.
 
 - **Monitoring and Metrics:**
-  - Integrates with metric providers like Prometheus, Datadog, and New Relic to monitor the health and performance of the application during deployments.
+  - Integrates with metric providers like Prometheus, to monitor the health and performance of the application during deployments.
   - Utilizes custom metrics and KPIs to drive automated promotion or rollback decisions, ensuring that the application meets predefined performance and reliability criteria.
 
 - **Rollback and Promotion:**
